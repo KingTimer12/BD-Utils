@@ -1,0 +1,5 @@
+name: BD Utils
+version: ${project.version}
+main: br.com.timer.bdutils.BDMain
+api-version: 1.16
+authors: [ KingTimer12 ]
