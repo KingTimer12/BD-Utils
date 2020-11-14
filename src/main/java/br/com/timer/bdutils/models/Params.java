@@ -7,6 +7,11 @@ import lombok.Data;
 @AllArgsConstructor
 public class Params {
 
-    private String key, value;
+    private String key;
+    private Object value;
+
+    public String toStringEncoded() {
+        return key + "=?";
+    }
 
 }
